@@ -68,3 +68,4 @@ test-iam-detection.sh
 # local files
 *_local.py
 data/sample
+test.ipynb
