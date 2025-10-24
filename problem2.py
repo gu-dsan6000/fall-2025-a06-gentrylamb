@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Problem 2: Cluster Usage Analysis - LOCAL
+Problem 2: Cluster Usage Analysis - CLUSTER
 
 Analyze cluster usage patterns to understand which clusters are most heavily used over time. Extract cluster IDs, application IDs, and application start/end times to create a time-series dataset suitable for visualization with Seaborn.
 """
