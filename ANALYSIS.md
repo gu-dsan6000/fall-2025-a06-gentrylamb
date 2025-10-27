@@ -70,7 +70,7 @@ Running the same analysis locally would have been impractical due to both memory
 
 ## Cluster Usage Patterns & Trends
 
-The analysis of cluster timelines and job durations revealed several important usage trends. Most application executions completed within ten minutes, indicating that the majority of workloads were lightweight or short-running tasks. However, there were occasional long-duration applications that extended well beyond this range, contributing to a right-skewed duration distribution.
+The analysis of cluster timelines and job durations revealed several important usage trends. Most application executions completed within ~17 minutes (10^3 seconds), indicating that the majority of workloads were lightweight or short-running tasks. However, there were occasional long-duration applications that extended well beyond this range, contributing to a right-skewed duration distribution.
 
 Interestingly, clusters with the highest number of applications did not always correspond to those with the longest-running jobs. This suggests that the workload profile was heterogeneous, combining frequent small-scale operations with a smaller number of intensive analytical tasks. Overall, the cluster demonstrated consistent utilization, with identifiable hotspots of activity centered around specific high-demand clusters. These findings indicate balanced scheduling behavior with occasional spikes in computational demand.
 
